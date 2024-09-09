@@ -13,6 +13,7 @@ Este proyecto es una aplicación de **buscador de películas** desarrollada con 
 - **React**: Para la creación de la interfaz interactiva.
 - **Hooks**: Para manejar el estado y efectos en los componentes.
 - **JSON**: Archivo con el catálogo de películas.
+- **Tailwind**: Estilos básicos para la interfaz del usuario.
 
 ## 🚀 Instrucciones para la instalación
 
