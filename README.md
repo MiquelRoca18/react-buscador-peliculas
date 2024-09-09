@@ -1,28 +1,40 @@
-## Enunciado
+# 🎬 Buscador de Películas - React
 
-Crea una aplicación para buscar películas
+Este proyecto es una aplicación de **buscador de películas** desarrollada con **React**. Utiliza un archivo **JSON** con un catálogo de películas para realizar búsquedas en tiempo real. Los usuarios pueden buscar películas por cualquier cadena de texto y ordenarlas alfabéticamente.
 
-API a usar: - https://www.omdbapi.com/
-API_KEY: e9a78901
-Consigue la API Key en la propia página web registrando tu email.
+## 🖥️ Funcionalidades principales
 
-Requerimientos:
+1. **Búsqueda de películas**: Los usuarios pueden buscar películas escribiendo cualquier cadena de texto en un campo de búsqueda. La aplicación mostrará todas las películas que coincidan parcial o completamente con el texto ingresado.
 
-✅ Necesita mostrar un input para buscar la película y un botón para buscar.
+2. **Ordenar alfabéticamente**: Se puede ordenar el listado de películas de manera alfabética para una mejor organización.
 
-✅ Lista las películas y muestra el título, año y poster.
+## 🛠️ Tecnologías utilizadas
 
-✅ Que el formulario funcione
+- **React**: Para la creación de la interfaz interactiva.
+- **Hooks**: Para manejar el estado y efectos en los componentes.
+- **JSON**: Archivo con el catálogo de películas.
 
-✅ Haz que las películas se muestren en un grid responsive.
+## 🚀 Instrucciones para la instalación
 
-✅ Hacer el fetching de datos a la API
+1. Clona el repositorio:
 
-Primera iteración:
+    ```bash
+    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    ```
 
-✅ Evitar que se haga la misma búsqueda dos veces seguidas.
+2. Instala las dependencias:
 
-✅ Haz que la búsqueda se haga automáticamente al escribir.
+    ```bash
+    npm install
+    ```
 
-✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
-# react-buscador-peliculas
+3. Ejecuta la aplicación:
+
+    ```bash
+    npm start
+    ```
+
+## 🌟 Futuras mejoras
+
+- Agregar paginación o carga dinámica para mejorar la experiencia de usuario con grandes listas de películas.
+- Implementar un filtro por géneros o año de lanzamiento.
