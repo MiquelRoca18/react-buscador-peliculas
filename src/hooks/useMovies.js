@@ -4,14 +4,13 @@ import { searchMovies } from '../services/movies.js'
 export function useMovies ({ search, sort }) {
   const [movies, setMovies] = useState([])
   const [loading, setLoading] = useState(false)
-  // el error no se usa pero puedes implementarlo
-  // si quieres:
+
   const [, setError] = useState(null)
   const previousSearch = useRef(search)
 
   const getMovies = useCallback(async ({ search }) => {
     if (search === previousSearch.current) return
-    // search es ''
+    
 
     try {
       setLoading(true)
@@ -22,7 +21,7 @@ export function useMovies ({ search, sort }) {
     } catch (e) {
       setError(e.message)
     } finally {
-      // tanto en el try como en el catch
+
       setLoading(false)
     }
   }, [])
