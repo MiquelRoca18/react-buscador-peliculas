@@ -20,7 +20,7 @@ Este proyecto es una aplicación de **buscador de películas** desarrollada con 
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    git clone https://github.com/MiquelRoca18/react-buscador-peliculas.git
     ```
 
 2. Instala las dependencias:
