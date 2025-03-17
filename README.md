@@ -33,7 +33,7 @@ Este proyecto es una aplicación de **buscador de películas** desarrollada con 
 3. Ejecuta la aplicación:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## 🌟 Futuras mejoras
