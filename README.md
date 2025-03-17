@@ -26,6 +26,7 @@ Este proyecto es una aplicación de **buscador de películas** desarrollada con 
 2. Instala las dependencias:
 
     ```bash
+    cd react-buscador-peliculas
     npm install
     ```
 
